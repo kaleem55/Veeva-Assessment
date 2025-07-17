@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="4" passed="4">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Surefire suite" duration-ms="92" started-at="2025-07-17T02:49:59 EDT" finished-at="2025-07-17T02:49:59 EDT">
+    <groups>
+    </groups>
+    <test name="Surefire test" duration-ms="92" started-at="2025-07-17T02:49:59 EDT" finished-at="2025-07-17T02:49:59 EDT">
+      <class name="csv.CsvComparisonTests">
+        <test-method status="PASS" signature="TC001_testIdenticalFiles()[pri:0, instance:csv.CsvComparisonTests@4b952a2d]" name="TC001_testIdenticalFiles" duration-ms="22" started-at="2025-07-17T02:49:59 EDT" finished-at="2025-07-17T02:49:59 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC001_testIdenticalFiles -->
+        <test-method status="PASS" signature="TC002_testDifferentValues()[pri:0, instance:csv.CsvComparisonTests@4b952a2d]" name="TC002_testDifferentValues" duration-ms="9" started-at="2025-07-17T02:49:59 EDT" finished-at="2025-07-17T02:49:59 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC002_testDifferentValues -->
+        <test-method status="PASS" signature="TC003_testDifferentHeaders()[pri:0, instance:csv.CsvComparisonTests@4b952a2d]" name="TC003_testDifferentHeaders" duration-ms="12" started-at="2025-07-17T02:49:59 EDT" finished-at="2025-07-17T02:49:59 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC003_testDifferentHeaders -->
+        <test-method status="PASS" signature="TC004_testOneFileEmpty()[pri:0, instance:csv.CsvComparisonTests@4b952a2d]" name="TC004_testOneFileEmpty" duration-ms="3" started-at="2025-07-17T02:49:59 EDT" finished-at="2025-07-17T02:49:59 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC004_testOneFileEmpty -->
+      </class> <!-- csv.CsvComparisonTests -->
+    </test> <!-- Surefire test -->
+  </suite> <!-- Surefire suite -->
+</testng-results>

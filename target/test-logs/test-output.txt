@@ -1,0 +1,24 @@
+Executing TC001 - Test for Identical files
+The CSV files are identical
+TC001 passed: Identical files comparison correctly identified as 'IDENTICAL'
+
+
+Executing TC002 - Test for Mismatching files
+Mismatch in Record 2, Header 'dept': File1 data='Finance', File2 data='Dispatch'
+
+Mismatch in Record 6, Header 'grade': File1 data='Junior II', File2 data='Junior III'
+
+The CSV files have the above mismatches.
+TC002 passed: Data mismatch files comparison correctly identified as 'DIFFERENT'
+
+
+Executing TC003 - Test for Mismatching headers
+Files have different headers. Please provide files with same headers
+TC003 passed: Header mismatch file comparison correctly identified as 'HEADER_MISMATCH'
+
+
+Executing TC004 - Test for one or more empty files
+One or both files are empty. Please provide files with same number of rows and same property (same headers) for effective comparison
+TC004 passed: Empty file comparison correctly identified as 'EMPTY'
+
+

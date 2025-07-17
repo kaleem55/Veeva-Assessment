@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="CSV File Comparison Suite">
+    <test verbose="2" preserve-order="true" name="CSV Comparison Tests">
+        <classes>
+            <class name="csv.CsvComparisonTests">
+                <methods>
+                    <include name="TC001_testIdenticalFiles"/>
+                    <include name="TC002_testDifferentValues"/>
+                    <include name="TC003_testDifferentHeaders"/>
+                    <include name="TC004_testOneFileEmpty"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>
