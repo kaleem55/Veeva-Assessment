@@ -1,12 +1,16 @@
-# Automation Framework to compare CSV Files
+# Automation Framework to test CSV comparison application
 
-This is a test automation framework to run tests for csv comparison application. 
+This is a test automation framework to run tests for csv comparison application covering functional tests and negative scenarios
 
 ## Test Scenarios
 TC001: When two files are Identical (matching records and headers) then csv comparison should result `IDENTICAL`
+
 TC002: When either of the files have mismatch in data then csv comparison should result `DIFFERENT`
-        (Comparison results found in logs here `target/test-logs/test-output.txt`)
+        
+(Comparison results found in logs here `target/test-logs/test-output.txt`)
+
 TC003: When either of the files have mismatching HEADER then csv comparison should result `HEADER_MISMATCH`
+
 TC004: When either of the files have empty data then csv comparison should result `EMPTY`
 
 ## Setup instructions
@@ -16,7 +20,7 @@ TC004: When either of the files have empty data then csv comparison should resul
 - Java 8 
 - Maven 3.8.1 
 
-### 2. Extract zip file and Build the Project from Compare_CSV_Files_Maven directory
+### 2. Clone project and Build the Project from Compare_CSV_Files_Maven directory
 
 ```
 cd Compare_CSV_Files_Maven
